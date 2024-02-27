@@ -15,3 +15,5 @@
 
 # Rules for QCOM targets
 include $(TOPDIR)vendor/lineage/build/core/qcom_target.mk
+
+IMG_FROM_TARGET_FILES_EXTENDED := $(HOST_OUT_EXECUTABLES)/img_from_target_files_extended$(HOST_EXECUTABLE_SUFFIX)
