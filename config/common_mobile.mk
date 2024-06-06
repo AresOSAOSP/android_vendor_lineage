@@ -4,11 +4,6 @@ $(call inherit-product, vendor/lineage/config/common.mk)
 # Include AOSP audio files
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage14.mk)
 
-# Default notification/alarm sounds
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.notification_sound=Argon.ogg \
-    ro.config.alarm_alert=Hassium.ogg
-
 # Apps
 PRODUCT_PACKAGES += \
     LatinIME
