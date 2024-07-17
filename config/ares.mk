@@ -48,3 +48,8 @@ PRODUCT_PACKAGES += \
 
 # Bootanimation
 include vendor/lineage/bootanimation/bootanimation.mk
+
+# Cache clenaer
+PRODUCT_PACKAGES += \
+    init.cache_cleaner.rc \
+    init.cache_cleaner.sh
