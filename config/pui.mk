@@ -26,3 +26,14 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/config-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/overlay/config/config.xml    
+
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayHidden
+
+# Themes
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay
+
+# Bootanimation
+include vendor/lineage/bootanimation/bootanimation.mk    
