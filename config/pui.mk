@@ -40,3 +40,14 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/fonts/GoogleSansClock-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSansClock-Regular.ttf \
     vendor/lineage/fonts/GoogleSansFlex-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSansFlex-Regular.ttf \
     vendor/lineage/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayHidden
+
+# Themes
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay
+
+# Bootanimation
+include vendor/lineage/bootanimation/bootanimation.mk
