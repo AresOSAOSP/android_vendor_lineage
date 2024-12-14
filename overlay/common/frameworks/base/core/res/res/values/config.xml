@@ -204,6 +204,9 @@
          should also be non-empty.-->
     <string name="config_rawContactsLocalAccountType" translatable="false">com.android.contacts</string>
 
+    <!-- Maximum velocity to initiate a fling, as measured in dips per second. -->
+    <dimen name="config_viewMaxFlingVelocity">12000dp</dimen>
+
     <!-- Define device configs on boot -->
     <string-array name="global_device_configs_override">
         <!-- Enable app cloning  -->
