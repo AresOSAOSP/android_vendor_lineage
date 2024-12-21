@@ -1,7 +1,6 @@
 # Extra packages
 PRODUCT_PACKAGES += \
     GameSpace \
-    OmniJaws \
     LMOFreeform \
     LMOFreeformSidebar    
 
